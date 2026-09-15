@@ -10,7 +10,7 @@ export function Footer() {
             </p>
             <a
               className="text-[13px] font-bold text-[#f5b77f] [overflow-wrap:anywhere] focus-visible:outline-[3px] focus-visible:outline-offset-4 focus-visible:outline-sujita-accent/75"
-              href="https://github.com/drthomas246/math_editor/blob/master/LICENSE.md"
+              href="https://github.com/drthomas246/sujita/blob/master/LICENSE.md"
               target="_blank"
               rel="noopener noreferrer"
             >
