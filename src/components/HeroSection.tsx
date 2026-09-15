@@ -21,7 +21,7 @@ function EditorPreview() {
               <br />
               かきなさい。
               <br />
-              <MathFormula tex="y = 2x - 3" />
+              <MathFormula tex="y = 2x + 3" />
             </div>
             <div className="insert-button">＋ 小問を追加</div>
             <div className="insert-button">∑ 数式を挿入</div>
@@ -38,10 +38,17 @@ function EditorPreview() {
               <div className="student">2年　　組　　番　名前＿＿＿＿＿＿＿＿</div>
               <div className="question">1　次の一次関数のグラフをかきなさい。</div>
               <div className="formula">
-                <MathFormula tex="y = 2x - 3" />
+                <MathFormula tex="y = 2x + 3" />
               </div>
               <div className="graph">
-                <div className="graph-line" />
+                <svg
+                  className="graph-line"
+                  viewBox="0 0 185 125"
+                  preserveAspectRatio="none"
+                  aria-hidden="true"
+                >
+                  <line x1="43" y1="125" x2="105.5" y2="0" />
+                </svg>
               </div>
             </div>
           </div>

@@ -211,7 +211,19 @@
 
 .graph::before { top: 0; left: 50%; width: 1px; height: 100%; }
 .graph::after { top: 52%; left: 0; width: 100%; height: 1px; }
-.graph-line { position: absolute; top: 64px; left: 21px; width: 145px; height: 2px; background: #3d6f63; transform: rotate(-31deg); }
+.graph-line {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.graph-line line {
+  stroke: #3d6f63;
+  stroke-width: 2px;
+  vector-effect: non-scaling-stroke;
+}
 
 /* Local-storage computer illustration */
 .computer-scene {
