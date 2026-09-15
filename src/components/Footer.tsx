@@ -6,7 +6,7 @@ export function Footer() {
           <div className="max-[900px]:max-w-[650px]">
             <h3 className="mt-0 mb-3 text-lg font-bold">利用規約・ご利用上の注意</h3>
             <p className="mt-0 mb-3.5 text-[13px] leading-[1.75] text-[#bfd2cc]">
-              利用規約は、GitHubのLICENSE.mdを正本とします。ご利用前に最新版をご確認ください。
+              利用規約は、GitHub上のLICENSE.mdとなります。ご利用前に最新版をご確認ください。
             </p>
             <a
               className="text-[13px] font-bold text-[#f5b77f] [overflow-wrap:anywhere] focus-visible:outline-[3px] focus-visible:outline-offset-4 focus-visible:outline-sujita-accent/75"
