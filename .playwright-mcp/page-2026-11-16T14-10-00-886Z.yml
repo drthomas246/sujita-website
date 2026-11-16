@@ -1,0 +1,177 @@
+- generic [ref=f9e2]:
+  - banner [ref=f9e3]:
+    - generic [ref=f9e4]:
+      - link "すうがく仕立て トップへ" [ref=f9e5] [cursor=pointer]:
+        - /url: "#top"
+        - img "すうがく仕立て" [ref=f9e6]
+      - navigation "メインナビゲーション" [ref=f9e7]:
+        - link "できること" [ref=f9e8] [cursor=pointer]:
+          - /url: "#features"
+        - link "使い方" [ref=f9e9] [cursor=pointer]:
+          - /url: "#workflow"
+        - link "利用規約" [ref=f9e10] [cursor=pointer]:
+          - /url: "#terms"
+        - link "無料で使ってみる" [ref=f9e11] [cursor=pointer]:
+          - /url: https://app.sujita.jp/
+  - main [ref=f9e12]:
+    - generic [ref=f9e14]:
+      - generic [ref=f9e15]:
+        - heading "教材づくりに、 考える時間を取り戻す。" [level=1] [ref=f9e16]: 教材づくりに、考える時間を取り戻す。
+        - paragraph [ref=f9e17]: 中学校数学の教科書データをAIで取り込み、問題・数式・表・解答欄まで細かく編集。 プレビューしながら、授業に合う数学プリントを作成できます。
+        - generic [ref=f9e18]:
+          - link "アプリを開く" [ref=f9e19] [cursor=pointer]:
+            - /url: https://app.sujita.jp/
+          - link "機能を見る" [ref=f9e20] [cursor=pointer]:
+            - /url: "#features"
+      - figure "すうがく仕立ての編集画面イメージ" [ref=f9e21]:
+        - generic [ref=f9e22]:
+          - generic [ref=f9e23]: 一次関数｜確認プリント
+          - generic [ref=f9e24]: 2年 組 番 名前＿＿＿＿＿＿＿＿
+          - generic [ref=f9e25]: 1 次の一次関数のグラフをかきなさい。
+          - generic [ref=f9e28]:
+            - math [ref=f9e30]:
+              - generic [ref=f9e32]:
+                - generic [ref=f9e33]: "y"
+                - generic [ref=f9e34]: =
+                - generic [ref=f9e35]: "2"
+                - generic [ref=f9e36]: x
+                - generic [ref=f9e37]: +
+                - generic [ref=f9e38]: "3"
+            - generic [aria-hidden] [ref=f9e39]:
+              - generic [ref=f9e40]: y =
+              - generic [ref=f9e41]: 2x +
+              - generic [ref=f9e42]: "3"
+          - img "y = 2x + 3 のグラフ用の座標平面" [ref=f9e43]:
+            - generic [ref=f9e56]: x
+            - generic [ref=f9e57]: "y"
+            - generic [ref=f9e58]: O
+        - generic [ref=f9e61]:
+          - group "プレビューの表示" [ref=f9e62]:
+            - button "問題のみ" [ref=f9e63] [cursor=pointer]
+            - button "解答付き" [pressed] [ref=f9e64] [cursor=pointer]
+          - generic [ref=f9e65]:
+            - generic [ref=f9e66]:
+              - text: 傾き a
+              - status "傾き a 2" [ref=f9e67]: "2"
+            - slider [ref=f9e68] [cursor=pointer]: "2"
+          - generic [ref=f9e69]:
+            - generic [ref=f9e70]:
+              - text: 切片 b
+              - status "切片 b 3" [ref=f9e71]: "3"
+            - slider [ref=f9e72] [cursor=pointer]: "3"
+        - generic [ref=f9e73]: アカウント不要。ローカル保存。PDF出力に対応。
+    - generic [ref=f9e75]:
+      - generic [ref=f9e76]:
+        - heading "つくる、整える、届ける。 一つの場所で。" [level=2] [ref=f9e77]: つくる、整える、届ける。一つの場所で。
+        - paragraph [ref=f9e78]: ゼロからの作成にも、AIで取り込んだ教材の仕上げにも。先生の意図をそのまま形にできます。
+      - article [ref=f9e79]:
+        - heading "教科書データから AIでプリント化" [level=3] [ref=f9e80]: 教科書データからAIでプリント化
+        - paragraph [ref=f9e81]: 指定範囲の例題・問題・小問・数式・表・図版を、再編集できるデータへ変換。内容を確認してから取り込めます。
+        - list [ref=f9e82]:
+          - listitem [ref=f9e83]:
+            - generic [ref=f9e84]: 教科書PDF
+            - text: 使う権限のある教材
+          - listitem [ref=f9e85]:
+            - generic [ref=f9e86]: AIで抽出・構造化
+            - text: 内容を先生が確認
+          - listitem [ref=f9e87]:
+            - generic [ref=f9e88]: JSONをインポート
+            - text: 編集できるプリントへ
+      - generic [ref=f9e89]:
+        - article [ref=f9e90]:
+          - heading "細部まで編集" [level=3] [ref=f9e91]
+          - paragraph [ref=f9e92]: 問題・小問・数式・表・画像・解答欄を自由に修正。Undo / Redoにも対応。
+        - article [ref=f9e93]:
+          - heading "1から制作" [level=3] [ref=f9e94]
+          - paragraph [ref=f9e95]: 新しいプリントを開き、問題を一つずつ組み立て。授業に合わせた完全オリジナルも。
+        - article [ref=f9e96]:
+          - heading "保存先は、あなたのPC。" [level=3] [ref=f9e97]
+          - paragraph [ref=f9e98]: 編集データはサーバーへ送らず、ブラウザ内のIndexedDBへ自動保存。JSONバックアップも可能です。
+        - article [ref=f9e99]:
+          - heading "見たまま確認、そのままPDFへ。" [level=3] [ref=f9e100]
+          - paragraph [ref=f9e101]: 「問題のみ」「解答付き」を切り替えてプレビュー。A4 / B5、余白やヘッダーを整えて出力できます。
+    - generic [ref=f9e103]:
+      - generic [ref=f9e104]:
+        - heading "いつもの準備が、3ステップで整う。" [level=2] [ref=f9e105]
+        - paragraph [ref=f9e106]: AIから始めても、白紙から始めても。最後は先生の目で確認して仕上げられます。
+      - list [ref=f9e107]:
+        - listitem [ref=f9e108]:
+          - heading "取り込む／つくる" [level=3] [ref=f9e109]
+          - paragraph [ref=f9e110]: 教科書PDFをAI対応環境で変換してJSONを読み込む、または新規プリントを作成します。
+        - listitem [ref=f9e111]:
+          - heading "授業に合わせて整える" [level=3] [ref=f9e112]
+          - paragraph [ref=f9e113]: 問題文、数式、表、画像、解答、解説まで、編集ペインで細かく調整します。
+        - listitem [ref=f9e114]:
+          - heading "確認して配る" [level=3] [ref=f9e115]
+          - paragraph [ref=f9e116]: 問題・解答のプレビューを確認。用紙設定を整え、PDFでダウンロードします。
+    - generic [ref=f9e118]:
+      - heading "教材データは、 外へ出さずに保管。" [level=2] [ref=f9e119]: 教材データは、外へ出さずに保管。
+      - paragraph [ref=f9e120]: アプリ本体の編集データはサーバーへ送信せず、使用中のブラウザに保存されます。アカウント登録やクラウド同期もありません。
+      - list [ref=f9e121]:
+        - listitem [ref=f9e122]: 変更から750ms後に自動保存
+        - listitem [ref=f9e123]: 単一プリント／一覧全体をJSONでバックアップ
+        - listitem [ref=f9e124]: 最新版のChrome / Edgeに対応
+    - generic [ref=f9e126]:
+      - generic [ref=f9e127]:
+        - heading "AIに任せきりにしない。 先生が確認して、完成へ。" [level=2] [ref=f9e128]: AIに任せきりにしない。先生が確認して、完成へ。
+        - paragraph [ref=f9e129]: 教科書PDF取込Skillは、アプリ外の対応AI環境で動作します。教材の利用権限と外部処理を確認し、生成内容は元PDFと照合してください。
+      - list [ref=f9e130]:
+        - listitem [ref=f9e131]:
+          - generic [ref=f9e132]:
+            - heading "権限を確認" [level=3] [ref=f9e133]
+            - paragraph [ref=f9e134]: 利用する権限があり、パスワード保護されていないPDFが対象です。
+        - listitem [ref=f9e135]:
+          - generic [ref=f9e136]:
+            - heading "原本と照合" [level=3] [ref=f9e137]
+            - paragraph [ref=f9e138]: 問題文・数式・図版・解答を確認し、必要なら修正します。
+        - listitem [ref=f9e139]:
+          - generic [ref=f9e140]:
+            - heading "明示して確定" [level=3] [ref=f9e141]
+            - paragraph [ref=f9e142]: 確認後にJSONを生成。数学的な正しさは利用者が最終確認します。
+    - generic [ref=f9e144]:
+      - generic [ref=f9e145]:
+        - heading "次のプリントを、今ここから。" [level=2] [ref=f9e146]
+        - generic [ref=f9e150]:
+          - math [ref=f9e152]:
+            - generic [ref=f9e154]:
+              - generic [ref=f9e155]: 教科書
+              - generic [ref=f9e156]: +
+              - generic [ref=f9e157]: 先生の工夫
+              - generic [ref=f9e158]:
+                - generic [ref=f9e159]: →
+                - generic [ref=f9e160]: すうがく仕立て
+              - generic [ref=f9e162]: 明日の授業
+          - generic [aria-hidden] [ref=f9e163]:
+            - generic [ref=f9e164]:
+              - generic [ref=f9e165]: 教科書
+              - text: +
+            - generic [ref=f9e166]:
+              - generic [ref=f9e167]: 先生の工夫
+              - generic [ref=f9e168]: すうがく仕立て
+            - generic [ref=f9e181]: 明日の授業
+      - generic [ref=f9e183]:
+        - paragraph [ref=f9e184]: インストール不要。PCブラウザですぐに始められます。
+        - link "すうがく仕立てを開く" [ref=f9e185] [cursor=pointer]:
+          - /url: https://app.sujita.jp/
+        - paragraph [ref=f9e186]:
+          - generic [ref=f9e187]: https://app.sujita.jp/
+          - generic [ref=f9e188]: 推奨：最新版 Chrome / Edge、横幅1024px以上のPC
+  - contentinfo [ref=f9e189]:
+    - generic [ref=f9e190]:
+      - generic [ref=f9e191]:
+        - generic [ref=f9e192]:
+          - img "すうがく仕立て" [ref=f9e193]
+          - paragraph [ref=f9e194]: 中学校数学の先生のための、数学プリント制作ツール
+        - generic [ref=f9e195]:
+          - heading "利用規約・ご利用上の注意" [level=3] [ref=f9e196]
+          - paragraph [ref=f9e197]: 利用規約は、GitHub上のLICENSE.mdとなります。ご利用前に最新版をご確認ください。
+          - link "利用規約（LICENSE.md）を確認する" [ref=f9e198] [cursor=pointer]:
+            - /url: https://github.com/drthomas246/sujita/blob/master/LICENSE.md
+        - generic [ref=f9e199]:
+          - heading "連絡先" [level=3] [ref=f9e200]
+          - paragraph [ref=f9e201]: 不具合の報告・機能に関するお問い合わせは、メールでご連絡ください。
+          - link "yoshihiro@yamahara.email" [ref=f9e202] [cursor=pointer]:
+            - /url: mailto:yoshihiro@yamahara.email
+      - generic [ref=f9e203]:
+        - generic [ref=f9e204]: © 2026 Yamahara Yoshihiro
+        - generic [ref=f9e205]: すうがく仕立て
